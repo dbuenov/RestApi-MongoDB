@@ -26,15 +26,15 @@ Body:
 
 ✅ Hay un controlador para borrar el usuario
 
-DELETE localhost:8080/users/{id}
+`DELETE localhost:8080/users/{id}`
 
 ✅ Hay un controlador para devolver el usuario
 
-GET localhost:8080/users/{id}
+`GET localhost:8080/users/{id}`
 
 ✅ Hay un controlador para actualizar el usuario
 
-PUT localhost:8080/users/{id}
+`PUT localhost:8080/users/{id}`
 
 Body:
 ```
