@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "49bc73e0-167c-49d1-8636-a5a77a498829",
+		"name": "NuweMongoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Dani2\",\r\n    \"age\":43,\r\n    \"city\":\"Badalona\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/6263a1e4dc81a1346558b7d1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users/6263a1e4dc81a1346558b7d1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"6263a1e4dc81a1346558b7d1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/6263a1e4dc81a1346558b7d1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Dani4\",\r\n    \"age\":43,\r\n    \"city\":\"Badalona\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/users/6263a1e4dc81a1346558b7d1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"6263a1e4dc81a1346558b7d1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/6263a4d6dc81a1346558b7de",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/users/6263a4d6dc81a1346558b7de",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"6263a4d6dc81a1346558b7de"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
