@@ -1,11 +1,12 @@
 MongoDB es una de las bases de datos no relacionales más utilizadas. Es flexible y bastante fácil de empezar a trabajar con ella. De esta manera, este reto servirá para introducirnos en el mundo de las bases de datos no relacionales. El modelo de usuario con el que se trabajará es el siguiente:
-
+'''
  user  
  {  
    username: {unique, required}  
    age:{number}  
    city:{string}  
- }  
+ } 
+ '''
 
 ✅ El servidor se conecta a MongoDB (local)
 
