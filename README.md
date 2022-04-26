@@ -13,7 +13,7 @@ Creará una BD llamada "nuweMongoDB"
 
 ✅ Hay un controlador para crear el usuario
 
-POST localhost:8080/users
+`POST localhost:8080/users`
 
 Body:
 ```
